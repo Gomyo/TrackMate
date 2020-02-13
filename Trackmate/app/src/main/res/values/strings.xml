@@ -23,7 +23,7 @@
 
 
     <string name="launch_nav">Launch Navigation Activity</string>
-    <string name="get_started">달리기</string>
+    <string name="get_started">이곳을 터치</string>
     <string name="adding_account_not_supported_title">Not Supported</string>
     <string name="add_account_not_supported">Adding account is not supported for this device</string>
     <string name="internet_not_available_title">접속 오류</string>

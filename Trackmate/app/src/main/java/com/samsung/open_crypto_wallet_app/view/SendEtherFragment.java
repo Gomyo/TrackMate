@@ -31,7 +31,6 @@ import java.math.BigInteger;
 
 public class SendEtherFragment extends Fragment {
 
-    private EditText mReceiverAccountField;
     private EditText mEtherAmountToSendEditText;
     private TextView mCurrentAmount;
     private RadioGroup mTransactionSpeedRadioGroup;
@@ -139,21 +138,13 @@ public class SendEtherFragment extends Fragment {
         if (result != null) {
             if (result.getContents() == null) {
                 Log.d(Util.LOG_TAG, "Cancelled");
-            } else {
-                updateReceiverEditText(result.getContents());
             }
         } else {
             super.onActivityResult(requestCode, resultCode, data);
         }
     }
-
-    private void updateReceiverEditText(String scanCode) {
-        scanCode = scanCode.replace("ethereum:", "");
-        mReceiverAccountField.setText(scanCode);
-    }
 }
 
-//This class integrates "send ether fragment" with the QR Code Scanner
 class FragmentAndQRIntentIntegrator extends IntentIntegrator {
 
     private final Fragment fragment;

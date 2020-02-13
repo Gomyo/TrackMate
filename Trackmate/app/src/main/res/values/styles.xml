@@ -11,6 +11,7 @@
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:colorControlHighlight">#FF0057</item> // 물결효과 색 변경
     </style>
 
     <style name="AppTheme.Main">

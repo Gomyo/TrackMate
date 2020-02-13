@@ -66,16 +66,18 @@
                 app:layout_constraintTop_toTopOf="@+id/acountNameImageView"
                 tools:text="Account 1" />
 
-            <ImageView
+            <TextView
                 android:id="@+id/currentBalanceImageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
+                android:text="TRK"
+                android:typeface="monospace"
                 app:layout_constraintStart_toEndOf="@+id/accountNameTextView"
                 app:layout_constraintBottom_toBottomOf="@+id/currentBalanceTextView"
                 app:layout_constraintEnd_toStartOf="@+id/currentBalanceTextView"
                 app:layout_constraintTop_toTopOf="@+id/currentBalanceTextView"
-                app:srcCompat="@drawable/ic_button_ethereum" />
+                />
 
             <TextView
                 android:id="@+id/currentBalanceTextView"
