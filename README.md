@@ -3,7 +3,6 @@
 
 </br>
 운동을 공유하다.</br>
-
 TrackMate는 블록체인 기반 글로벌 러닝 플랫폼입니다.</br> 
 러닝을 하고 싶은 유저들을 실시간으로 매칭시켜주고 블록체인 상에 그들의 추억을 영구적으로 보관합니다.  
 
@@ -30,7 +29,7 @@ Samsung SDK
 ```
 $ git clone https://github.com/Gomyo/TrackMate.git
 ```
-다운로드 이후 프로그램 실행하시면 됩니다. 만약 오류가 있을 경우, Users/Username/.AndroidStudioProjects 속에 넣고 빌드해 보세요. </br>
+다운로드 이후 프로그램 실행하시면 됩니다. 만약 오류가 있을 경우, Users/Username/.AndroidStudioProjects 속에 넣고 빌드해 보세요. ※갤럭시 10 이상 기기에서만 정상적으로 작동합니다.</br>
  
 ### 어플리케이션 개요
 - 참여자들이 베팅한 금액은 Contract Address로 전송된다.
