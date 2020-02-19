@@ -30,4 +30,16 @@ contract Ballot{
             }));
         }
     }
+    function giveRightToVote(address voter) public {
+        require(
+            (msg.sender == chairperson) &&
+            !voters[voter].voted &&
+            (voters[voter].weight == 0)
+        );
+        voters[voter].weight = 1;
+    }
+    function delegate(address to) public {
+        Voter storage sender = voters[msg.sender];
+        require(!sender.voted);
+    }
 }
