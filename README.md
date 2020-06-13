@@ -24,12 +24,11 @@ Android Studio</br>
 Samsung SDK
   
 ### Application 설치
-1. 폴더의 Trackmate 다운로드 후 실행
-2. git clone의 경우
+1. git clone
 ```
 $ git clone https://github.com/Gomyo/TrackMate.git
 ```
-다운로드 이후 안드로이드 스튜디오로 build해 주세요. ※갤럭시 10 이상 기기에서만 정상적으로 작동합니다.</br>
+2. 안드로이드 스튜디오로 Trackmate 폴더를 열고, build해 주세요. ※갤럭시 10 이상 기기에서만 정상적으로 작동합니다.</br>
  
 ### 어플리케이션 개요
 - 참여자들이 베팅한 금액은 Contract Address로 전송된다.
